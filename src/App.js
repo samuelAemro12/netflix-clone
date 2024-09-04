@@ -1,11 +1,12 @@
-import React from 'react'
+import React from 'react';
+
 
 const App = () => {
   return (
     <div>
-      
+      {/* <NavigationBar/> */}
     </div>
   )
 }
 
-export default App
+export default App;

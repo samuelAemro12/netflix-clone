@@ -1,0 +1,58 @@
+.navbar{
+    display: flex;
+    background-color: #000;
+    width: 100%;
+    position: sticky;
+    justify-content: space-between;
+    font-size: 12;
+    background-image: linear-gradient(180deg, rgba(0,0,0,0.7) 3% transparent);
+    z-index: 1;
+}
+.netflix-logo {
+    width: 20%;
+}
+.left-side{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 20px 2%;
+}
+.right-side{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.left-side ul{
+    display: flex;
+    list-style: none;
+    gap: 12px;
+}
+.right-side .bell-icon{
+    width: 20px;
+    cursor: pointer;
+}
+.right-side .profile-icon{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    cursor: pointer;
+    position: relative;
+}
+.drop-down{
+    position:absolute;
+    top: 100%;
+    right: 0;
+    width: max-content;
+    background: #191919;
+    padding: 18px 22px;
+    border-radius: 2px;
+    text-decoration: underline;
+    z-index: 1;
+    display: none;
+}
+.drop-down p{
+    cursor: pointer;
+}
+.profile-icon:hover .drop-down{
+    display: block;
+}
