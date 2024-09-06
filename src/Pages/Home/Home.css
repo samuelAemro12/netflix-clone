@@ -1,0 +1,58 @@
+.more-movie-options{
+    padding-left: 6%;
+}
+ .banner-image{
+    width: 100%;
+    mask-image: linear-gradient(to right, transparent, black 72%);
+    -webkit-mask-image: linear-gradient(to right, transparent, black 70%);
+ }
+ .banner-home{
+    position: relative;
+}
+ .banner-caption{
+    position: absolute;
+    width: 125%;
+    padding-left: 6%;
+    bottom: 0;
+ }
+ .banner-caption p{
+    max-width: 700px;
+    font-size: 17px;
+    margin-bottom: 20px;
+ }
+.home-buttons{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 50px;
+}
+.caption-image{
+    width: 18%;
+    max-width: 426px;
+    margin-bottom: 30px;
+ }
+ .home-buttons .home-button{
+    border: 0;
+    outline: 0;
+    padding: 8px 20px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    background: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.home-buttons .home-button img{
+    width: 25px;
+}
+.home-buttons .home-buttons .dark-button{
+    color: white ;
+    background: #6d6d6eb3;
+}
+.home-buttons .home-button:hover{
+    background-color: #ffffffbf;
+}
+.home-buttons .home-buttons .dark-button:hover{
+    background: #6d6d6e66;
+}
