@@ -27,6 +27,12 @@ const Home = () => {
                     <TitleCards/>
                 </div>
           </div>
+          <div className='more-movie-options'>
+            <TitleCards/>
+            <TitleCards/>
+            <TitleCards/>
+            <TitleCards/>
+          </div>
       <Footer/>
     </div>
   );
