@@ -6,6 +6,7 @@ import HomeImageBanner from '../../files/image-banner.jpg';
 import ImageBannerTitle from '../../files/image-banner-title.png';
 import playImage from '../../files/play_icon.png';
 import InfoImage from '../../files/info_icon.png';
+import TitleCards from '../../components/TitleCards/TitleCards';
 
 const Home = () => {
   return (
@@ -23,6 +24,7 @@ const Home = () => {
                         <button className='home-button'><img src={playImage} alt=''/>Play</button>
                         <button className='home-button dark-button'><img src={InfoImage} alt=''/>More Info</button>
                     </div>
+                    <TitleCards/>
                 </div>
           </div>
       <Footer/>
