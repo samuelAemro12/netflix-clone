@@ -68,7 +68,7 @@ const Movie_Data = [
     },
     {
         image:card_img14,
-        name:"All of Us Are Dead"
+        name:"All of Us Are DEAD"
     },
 ]
 
