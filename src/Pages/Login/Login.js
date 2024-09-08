@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const Login = () => {
   return (
@@ -8,4 +8,4 @@ const Login = () => {
   )
 }
 
-export default Login
+export default Login;
