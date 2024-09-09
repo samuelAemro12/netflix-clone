@@ -4,7 +4,7 @@ import netflixLogo from '../../files/netflixLogo.png';
 
 const Login = () => {
   return (
-    <div className=''>
+    <div className='login'>
       <img src={netflixLogo} alt='' className='netflixLogoImage'/>
       <div className=''>
         <h1>Sign Up</h1>
