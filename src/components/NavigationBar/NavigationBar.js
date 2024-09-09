@@ -1,6 +1,6 @@
 import React from "react";
 import './NavigationBar.css';
-import netflixLogo from '../../files/logo.png'
+import netflixLogo from '../../files/netflixLogo.png'
 // import searchIcon from 
 // import notificationIcon from
 
