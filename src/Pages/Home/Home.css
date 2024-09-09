@@ -46,9 +46,9 @@
 .home-buttons .home-button img{
     width: 25px;
 }
-.home-buttons .home-buttons .dark-button{
+.home-buttons .home-button .dark-button{
     color: white ;
-    background: #6d6d6eb3;
+    background: grey;
 }
 .home-buttons .home-button:hover{
     background-color: #ffffffbf;
