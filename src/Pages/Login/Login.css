@@ -1,16 +1,86 @@
 .login{
-    height: 100vh;
+    height: 120vh;
     background-image: linear-gradient(#0000007e, #0000007e), url(../../files/netflixLoginPage.jpg);
     padding: 20px 8px;
+}
+.form-body{
+    height: 495px;
+    width: 100%;
+    max-width: 450px;
+    border-radius: 4px;
+    background: rgba(0,0,0,0.7);
+    padding: 60px;
+    margin: auto;
 }
 .netflixLogoImage{
     width: 150px;
 }
-.form-body{
-    width: 100%;
-    max-width: 450 px;
+.form-body input{
+    width: 300px;
+    height: 50px;
+    background: #333 ;
+    color: white;
+    margin: 12px 0;
+    border: 0;
+    outline: 0;
     border-radius: 4px;
-    background: rgba(0,0,0,0.75);
-    padding: 6px;
-    margin: auto;
+    padding: 16px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    display: block;
+}
+.form-body h1{
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 28px;
+}
+.form-body button{
+    width: 100%;
+    border: 0;
+    outline: 0;
+    padding: 16px;
+    background: #e50914;
+    color: white;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.form-help{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #b3b3b3;
+    font-size: 14px;
+}
+.switch-state{
+    margin-top: 38px;
+    color: #737373;
+}
+.switch-state span{
+    margin-left: 6px;
+    color: #fff;
+    font-weight: 475;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.save-remember-me{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.save-remember-me input{
+    width: 18px;
+    height: 18px;
+}
+.form-body input::placeholder{
+    font-size: 16px;
+    font-weight: 450;
+}
+.switch-state p{
+    color: gray;
+}
+.switch-state span:hover{
+    text-decoration:overline;
 }

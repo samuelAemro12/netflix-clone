@@ -13,14 +13,14 @@ const Login = () => {
       <div className='form-body'>
         <h1>{signedIn}</h1>
         <form>
-          {signedIn === "Sign Up" ? <input type='text' placeholder='your name'/> : <> </>}          
+          {signedIn === "Sign Up" ? <input type='text' placeholder='Name'/> : <> </>}          
           <input type='email' placeholder='Email'/>
           <input type='password' placeholder='Password'/>
           <button>{signedIn}</button>
           <div className='form-help'>
             <div className='save-remember-me'>
               <input type='checkbox'/>
-              <label htmlFor=''>Remember Me</label>
+              <label>Remember Me</label>
             </div>
             <p>HElP?</p>
           </div>
