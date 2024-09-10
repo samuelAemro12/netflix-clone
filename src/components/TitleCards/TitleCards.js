@@ -33,7 +33,7 @@ const TitleCards = ({title, category }) =>{
             <div className="movie-list" ref={MoviesRef}>
                 {movieApiData.map((movie, index)=>{
                     return(
-                    <Link className="Movie" key={index}>
+                    <Link  to={`/player/${movie.id}`} className="Movie" key={index}>
                         <img src={`https://image.tmdb.org/t/p/w500`+movie.backdrop_path} alt=""/>
                         <p src={movie.original_title} alt=""/>
                     </Link>
