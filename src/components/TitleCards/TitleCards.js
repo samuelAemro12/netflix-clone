@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import "./TitleCards.css";
 import Movie_Data from "../../files/MovieRendering/MovieRendering";
+import { Link } from "react-router-dom";
 
 const TitleCards = ({title, category }) =>{
     const [movieApiData, setMovieApiData] = useState([]);
@@ -32,10 +33,10 @@ const TitleCards = ({title, category }) =>{
             <div className="movie-list" ref={MoviesRef}>
                 {movieApiData.map((movie, index)=>{
                     return(
-                    <div className="Movie" key={index}>
+                    <Link className="Movie" key={index}>
                         <img src={`https://image.tmdb.org/t/p/w500`+movie.backdrop_path} alt=""/>
                         <p src={movie.original_title} alt=""/>
-                    </div>
+                    </Link>
                     );
                 })}
             </div>
