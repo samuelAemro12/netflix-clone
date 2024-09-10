@@ -1,3 +1,10 @@
+ img{
+    position: relative;
+    top: 20px;
+    left: 20px;
+    width: 45px;
+    cursor: pointer;
+}
 .player-page{
     height: 100vh;
     display: flex;
@@ -5,19 +12,12 @@
     justify-content: center;
     align-items: center;
 }
-img{
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    width: 45px;
-    cursor: pointer;
-}
+iframe{
+    border-radius: 10px;
+} 
 .player-information{
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 90%;
-}
-iframe{
-    border-radius: 10px;
 }

@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import backArrow from '../../files/back_arrow_icon.png';
 import { useNavigate, useParams } from 'react-router-dom';
+import './Player.css';
 
 const Player = () => {
   const [movieApiData, setMovieApiData] = useState({
