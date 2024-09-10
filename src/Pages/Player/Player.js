@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import backArrow from '../../files/back_arrow_icon.png';
-import { useParams } from 'react-router-dom';
+import { useNavigate, useParams } from 'react-router-dom';
 
 const Player = () => {
   const [movieApiData, setMovieApiData] = useState({
@@ -9,6 +9,10 @@ const Player = () => {
     publilshed_at:"",
     typeof:""
   });
+  const nav = useNavigate();
+  const navBack = () =>{
+    nav(-2)
+  }
   const {id} = useParams();
   const options = {
     method: 'GET',
@@ -26,7 +30,7 @@ const Player = () => {
  
   return (
     <div className='player-page'>
-      <img src={backArrow} alt='back arrow icon'/>
+      <img src={backArrow} alt='back arrow icon' onClick={navBack}/>
       <iframe width='85%' height='85%' src ={`https://www.youtube.com/embed/fIOph60LEBA${movieApiData.key}`} title='Trailer'
       frameBorder='0' allowFullScreen></iframe>
       <div className='player-information'>
