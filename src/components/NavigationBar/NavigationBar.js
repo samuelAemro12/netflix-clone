@@ -1,12 +1,9 @@
 import React from "react";
 import './NavigationBar.css';
 import netflixLogo from '../../files/netflixLogo.png'
-// import searchIcon from 
-// import notificationIcon from
-
+import notificationIcon from '../../files/icons8-notification-48.png';
 import profileIcon from '../../files/profile_img.png'
-// import dropDownIcon
-// import caretIcon 
+
 const NavigationBar = () => {
     return(
         <div className="navbar">
@@ -21,17 +18,11 @@ const NavigationBar = () => {
                     <li>Browse by Language</li>
                 </ul>
             </div>
-            {/* <div className="middle-AboutMe">
-
-            </div> */}
             <div className="right-side">
-                {/* <img src={searchIcon} alt="search icon"/> */}
                 <p>children</p>
-               
-                {/* <img src={notificationIcon} alt="notification icon" className="notification-icon"/> */}
+                <img src={notificationIcon} alt="notification icon" className="notification-icon"/>
                 <div className="navbar-profile">
                 <img src={profileIcon} alt="profile logo" className="profile-icon"/>
-                 {/* {<img src={careIcon} alt="caret icon"/>} */}
                 </div>
                 <div className="drop-down">
                     <p>Sign Out</p>
