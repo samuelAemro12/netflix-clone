@@ -3,6 +3,7 @@ import './NavigationBar.css';
 import netflixLogo from '../../files/netflixLogo.png'
 import notificationIcon from '../../files/icons8-notification-48.png';
 import profileIcon from '../../files/profile_img.png'
+import searchIcon from '../../files/icons8-search-50.png';
 
 const NavigationBar = () => {
     return(
@@ -19,6 +20,7 @@ const NavigationBar = () => {
                 </ul>
             </div>
             <div className="right-side">
+                <image src={searchIcon} alt="icon" className="search-icon"/>
                 <p>children</p>
                 <img src={notificationIcon} alt="notification icon" className="notification-icon"/>
                 <div className="navbar-profile">

@@ -1,6 +1,6 @@
 .navbar{
     display: flex;
-    background-color: rgba(0, 0, 17, 0.747); 
+    background-color: rgba(0, 0, 17, 0.568); 
     /* because of the color of the bell icon i was forced to compromise about the color of the navigation bar */
     width: 100%;
     /* position: sticky; */
@@ -24,6 +24,7 @@
     display: flex;
     align-items: center;
     gap: 4px;
+    padding-right: 4%;
 }
 .left-side ul{
     display: flex;
@@ -42,6 +43,10 @@
     gap: 7px;
     cursor: pointer;
     position: relative;
+    width: 65%;
+}
+.right-side .profile-icon{
+    display: flex;
     width: 65%;
 }
 .drop-down{
