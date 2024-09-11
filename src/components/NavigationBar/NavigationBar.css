@@ -2,11 +2,12 @@
     display: flex;
     background-color: #000;
     width: 100%;
-    position: sticky;
+    /* position: sticky; */
     justify-content: space-between;
     font-size: 12;
     background-image: linear-gradient(180deg, rgba(0,0,0,0.7) 3% transparent);
     z-index: 1;
+    position: fixed;
 }
 .netflix-logo {
     width: 20%;
