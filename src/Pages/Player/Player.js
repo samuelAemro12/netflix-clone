@@ -37,7 +37,7 @@ const Player = () => {
       <div className='player-information'>
         <p>{movieApiData.publilshed_at.slice(0,10)}</p>
         <p>{movieApiData.name}</p>
-        <p>{movieApiData.Type}</p>
+        <p>{movieApiData.typeof}</p>
       </div>
     </div>
   )
