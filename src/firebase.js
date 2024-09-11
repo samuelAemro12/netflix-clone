@@ -42,7 +42,7 @@ const login = async (email, password)=>{
         alert(error);
     }
 }
-const logout = async ()=>{
+const logout = ()=>{
     signOut(auth);
 }
 
