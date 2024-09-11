@@ -33,3 +33,29 @@
     border-radius: 4px;
     cursor: pointer;
 }
+@media (max-width: 800px) {
+    .titleCards{
+        margin-bottom: 0;
+        margin-top: 20px;
+    }
+    .titleCards h2{
+        font-size: 20px;
+    }
+    .movie-list img{
+        width: 214px;
+    }
+    .movie-list p{
+        font-size: 10px;
+    }
+}
+@media (max-width: 500px) {
+    .titleCards h2{
+        font-size: 13px;
+    }
+    .movie-list img{
+        width: 150px;
+    }
+    .movie-list p{
+        font-size: 8px;
+    }
+}

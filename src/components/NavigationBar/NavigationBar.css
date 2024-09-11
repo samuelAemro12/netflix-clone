@@ -67,3 +67,23 @@
 .profile-icon:hover .drop-down{
     display: block;
 }
+@media (max-width:800px){
+    .navbar{
+        padding: 20px 5%;
+    }
+    .left-side ul{
+        display: none;
+    }
+    .navbar img{
+        height: 40px;
+        width: 80px;
+    }
+}
+@media (max-width:500px){
+    .navbar img{
+        height: 35px;
+    }
+    .right-side{
+        gap: 8px;
+    }
+}
