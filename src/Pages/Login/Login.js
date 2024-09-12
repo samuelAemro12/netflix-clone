@@ -2,12 +2,13 @@ import React, { useState} from 'react';
 import './Login.css';
 import netflixLogo from '../../files/netflixLogo.png';
 import { login, signup } from '../../firebase';
-
+import loading from '../../files/netflix_spinner.gif';
 const Login = () => {
   const [signedIn, setSignedIn] = useState("Sign In");
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const [load, setLoad] = useState(false);
 
 
   const signState = () =>{setSignedIn("Sign Up");}
@@ -15,14 +16,19 @@ const Login = () => {
 
   const user_auth = async (event)=>{
     event.preventDefault();
+    setLoad(true);
     if(signState === "Sign In"){
       await login(email, password);
     }else{
       await signup(name, email, password);
     }
+    setLoad(false);
   }
 
   return (
+    // load spinner via conditional rendering it is rendered until the home 
+    load?<div className="login-sppinner"> <img src={loading} alt=''/>
+    </div>:
     <div className='login'>
       <img src={netflixLogo} alt='netflix logo' className='netflixLogoImage'/>
       <div className='form-body'>
