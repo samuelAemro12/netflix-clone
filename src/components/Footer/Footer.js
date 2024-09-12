@@ -12,6 +12,7 @@ const Footer = () => {
             <img src={facebookLogo} alt="facebook logo"/>
             <img src={instagramLogo} alt="instagram logo"/>
             <img src={youtubeLogo} alt="youTube logo"/>
+            {/* imported pictures from local directory*/}
          </div>
         < div className="footer-data">
                 <ul>
@@ -43,6 +44,7 @@ const Footer = () => {
         </div>
     </div>
 </div>
+// rendering the footer jsx
   );
 }
 export default Footer;

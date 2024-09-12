@@ -28,12 +28,15 @@ const Player = () => {
     .then(response => setMovieApiData(response.results[0]))
     .catch(err => console.error(err));
   },[]);
+  // fetch a movie details from tmdb
  
   return (
     <div className='player-page'>
       <img src={backArrow} alt='back arrow icon' onClick={navBack}/>
-      <iframe width='85%' height='85%' src ={`https://www.youtube.com/embed/fIOph60LEBA${movieApiData.key}`} title='Trailer'
-      frameBorder='0' allowFullScreen></iframe>
+      <iframe width='85%' height='85%' src ={`https://www.youtube.com/embed/${movieApiData.key}`} tit0le='Trailer'
+      frameBorder='0' allowFullScreen></iframe> 
+      {/* data fetch from youtube */}
+     {/* /fIOph60LEBA fetch key as a static */}
       <div className='player-information'>
         <p>{movieApiData.publilshed_at.slice(0,10)}</p>
         <p>{movieApiData.name}</p>
