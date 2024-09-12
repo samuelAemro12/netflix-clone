@@ -6,16 +6,26 @@ import profileIcon from '../../files/profile_img.png';
 import searchIcon from '../../files/icons8-search-50.png';
 
 const NavigationBar = () => {
-    const navRef = useRef();
-    useEffect(()=>{
-        window.addEventListener('scroll', ()=>{
-            if(window.scrollY>= 80){
+    const navRef = useRef(null);
+    useEffect(() => {
+        const handleScroll = () => {
+            if (navRef.current) { // Check if navRef.current is defined
+              if (window.scrollY >= 90) {
                 navRef.current.classList.add('nav-dark');
-            } else{
+              } else {
                 navRef.current.classList.remove('nav-dark');
+              }
             }
-        })
-    },[])
+          };
+      
+        window.addEventListener('scroll', handleScroll);
+      
+        // Cleanup function
+        return () => {
+          window.removeEventListener('scroll', handleScroll);
+        };
+      }, [navRef]); 
+      
     return(
         <div className="navbar">
             <div className="left-side">
