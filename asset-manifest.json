@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/netflix-clone/static/css/main.e669ee20.css",
+    "main.css": "/netflix-clone/static/css/main.ff0a2da9.css",
     "main.js": "/netflix-clone/static/js/main.0c38e239.js",
     "static/media/netflix_spinner.gif": "/netflix-clone/static/media/netflix_spinner.7517415e575521b3249f.gif",
+    "static/media/netflixLoginPage.jpg": "/netflix-clone/static/media/netflixLoginPage.be6e94652277a0be19e3.jpg",
     "static/media/card4.jpg": "/netflix-clone/static/media/card4.0e4eb9de88929e2d3e7e.jpg",
     "static/media/card11.jpg": "/netflix-clone/static/media/card11.4e2bd9e0659617d2a980.jpg",
     "static/media/image-banner(2).jpg": "/netflix-clone/static/media/image-banner(2).1b1faecf29bd3ce82aee.jpg",
@@ -21,11 +22,11 @@
     "static/media/image-banner-title(1).jpg": "/netflix-clone/static/media/image-banner-title(1).a463e9a0aee172732beb.jpg",
     "static/media/netflixLogo.png": "/netflix-clone/static/media/netflixLogo.6521ee8dd0b9223ba3b5.png",
     "index.html": "/netflix-clone/index.html",
-    "main.e669ee20.css.map": "/netflix-clone/static/css/main.e669ee20.css.map",
+    "main.ff0a2da9.css.map": "/netflix-clone/static/css/main.ff0a2da9.css.map",
     "main.0c38e239.js.map": "/netflix-clone/static/js/main.0c38e239.js.map"
   },
   "entrypoints": [
-    "static/css/main.e669ee20.css",
+    "static/css/main.ff0a2da9.css",
     "static/js/main.0c38e239.js"
   ]
 }
