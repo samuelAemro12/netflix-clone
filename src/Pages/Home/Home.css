@@ -8,6 +8,7 @@
  }
  .banner-home{
     position: relative;
+    padding-bottom: 79px;
 }
  .banner-caption{
     position: absolute;
@@ -26,7 +27,7 @@
     margin-bottom: 50px;
 }
 .caption-image{
-    width: 18%;
+    width: 12%;
     max-width: 426px;
     margin-bottom: 30px;
  }

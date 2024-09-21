@@ -17,7 +17,7 @@ const Home = () => {
                 <div className='banner-caption'>
                     <img src={ImageBannerTitle} alt='' className='caption-image'/>
                     <p>A teenage girl falls for a vampire, uncovering a dark secret world of supernatural
-                      beings and a love triangle with his brother. Filled with romance, danger, and 
+                      beings and a love triangle with his brother. Filled with romance, danger, and
                       supernatural thrills.
                     </p>
                     <div className='home-buttons'>
