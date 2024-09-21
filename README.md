@@ -56,7 +56,7 @@ Public
 # Author
 samuel Aemro Melese - https://github.com/samuelAemro12
 
-# General Information anD Acknowledgment
+# General Information and Acknowledgment
 I learned React while simultaneously working on this project, and I had great time being challenged
 and writing code and debugging. I have Used The YouTube channels Evangadi Tech and GreatStack for some
 files and assistances during coding and when I hit the wall while working I have tweaked some by refactoring,
@@ -65,5 +65,5 @@ with while learning, I have also used some YouTube channels like Bro Code, Net N
 for some quick explanation for some concepts. I have used https://www.themoviedb.org for data fetching, and 
 https://www.firebase.google.com for user authentication and database services, I have used the challenge based approach to solving coding problems.
 
-#Contact 
+# Contact 
 Samuel Aemro - samuelaemrowork12@gmail.com
