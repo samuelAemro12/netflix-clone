@@ -43,8 +43,13 @@ const Footer = () => {
             &copy; 1997-2024 Netflix, Inc.
         </div>
     </div>
+    <div className='buider-Credit'>
+        <h3>Built By Samuel Aemro Melese</h3>
+        <h2>2024</h2>
+    </div>
 </div>
 // rendering the footer jsx
+
   );
 }
 export default Footer;
