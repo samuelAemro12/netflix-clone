@@ -1,92 +1,148 @@
-.navbar{
+.navbar {
     display: flex;
-    background-color: rgba(0, 0, 17, 0.568); 
-    /* because of the color of the bell icon i was forced to compromise about the color of the navigation bar */
-    width: 100%;
-    /* position: sticky; */
+    background-color: rgba(0, 0, 17, 0.568);
+    width: 100vw;
     justify-content: space-between;
-    font-size: 12;
+    font-size: 14px;
     background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.767) 3% transparent);
     z-index: 1;
     position: fixed;
     height: 70px;
+    min-width: 0;
+    box-sizing: border-box;
 }
+
 .netflix-logo {
-    width: 15%;
+    width: 110px;
+    min-width: 60px;
+    height: auto;
 }
-.left-side{
+
+.left-side {
     display: flex;
     align-items: center;
-    gap: 50px;
+    gap: 36px;
     padding: 20px 2%;
 }
-.right-side{
-    display: flex;
-    align-items: center;
-    gap: 4px;
-    padding-right: 4%;
-}
-.left-side ul{
+.left-side ul {
     display: flex;
     list-style: none;
-    gap: 12px;
+    gap: 18px;
+    padding: 0;
+    margin: 0;
 }
-.right-side .notification-icon{
-    width: 20px;
+.left-side ul li {
+    color: #fff;
     cursor: pointer;
-    width: 30%;
-    color: azure;
+    font-size: 1em;
+    transition: color 0.2s;
 }
-.right-side .profile-icon{
+.left-side ul li:hover {
+    color: #e50914;
+}
+
+.right-side {
     display: flex;
     align-items: center;
-    gap: 7px;
+    gap: 18px;
+    padding-right: 4%;
+}
+.search-icon {
+    width: 26px;
+    height: 26px;
     cursor: pointer;
-    position: relative;
-    width: 65%;
 }
-.right-side .profile-icon{
+.notification-icon {
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+}
+.profile-icon, .navbar-profile {
     display: flex;
-    width: 65%;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
 }
-.drop-down{
-    position:absolute;
-    top: 100%;
+.profile-icon img, .navbar-profile img, .profile-img {
+    width: 34px;
+    height: 34px;
+    border-radius: 4px;
+    object-fit: cover;
+}
+.drop-down {
+    position: absolute;
+    top: 110%;
     right: 0;
     width: max-content;
     background: #191919;
-    padding: 18px 22px;
+    padding: 12px 18px;
     border-radius: 2px;
     text-decoration: underline;
     z-index: 1;
     display: none;
+    font-size: 13px;
+    color: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
 }
-.drop-down p{
+.drop-down p {
     cursor: pointer;
+    margin: 0;
 }
-.profile-icon:hover .drop-down{
+.profile-icon:hover .drop-down, .navbar-profile:hover .drop-down {
     display: block;
 }
-@media (max-width:800px){
-    .navbar{
-        padding: 20px 5%;
+
+@media (max-width: 900px) {
+    .left-side ul {
+        gap: 10px;
     }
-    .left-side ul{
-        display: none;
+    .right-side {
+        gap: 10px;
     }
-    .navbar img{
-        height: 40px;
+    .netflix-logo {
         width: 80px;
     }
 }
-@media (max-width:500px){
-    .navbar img{
-        height: 35px;
+@media (max-width: 700px) {
+    .left-side ul {
+        display: none;
     }
-    .right-side{
+    .netflix-logo {
+        width: 60px;
+    }
+    .right-side {
         gap: 8px;
     }
+    .search-icon, .notification-icon, .profile-icon img, .navbar-profile img, .profile-img {
+        width: 22px;
+        height: 22px;
+    }
 }
-.nav-dark{
+@media (max-width: 500px) {
+    .navbar {
+        height: 50px;
+    }
+    .left-side {
+        gap: 8px;
+        padding: 10px 2%;
+    }
+    .right-side {
+        gap: 4px;
+        padding-right: 2%;
+    }
+    .netflix-logo {
+        width: 40px;
+    }
+    .search-icon, .notification-icon, .profile-icon img, .navbar-profile img, .profile-img {
+        width: 16px;
+        height: 16px;
+    }
+    .drop-down {
+        font-size: 11px;
+        padding: 8px 10px;
+    }
+}
+
+.nav-dark {
     background: #141412;
 }
