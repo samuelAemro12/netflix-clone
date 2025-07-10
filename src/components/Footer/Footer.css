@@ -6,6 +6,37 @@
     color: #fff;
 }
 
+.footer-social-icons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+}
+
+.footer-icon-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #888;
+    transition: color 0.3s ease;
+    padding: 5px;
+}
+
+.footer-icon-link:hover {
+    color: #e50914;
+    transform: scale(1.1);
+}
+
+.footer-svg-icon {
+    width: 24px;
+    height: 24px;
+    fill: currentColor;
+    transition: all 0.3s ease;
+}
+
 .outer-container {
     background-color: #111;
     color: grey;
@@ -102,6 +133,13 @@
         width: 28px;
         height: 28px;
     }
+    .footer-svg-icon {
+        width: 22px;
+        height: 22px;
+    }
+    .footer-social-icons {
+        gap: 12px;
+    }
 }
 
 @media (max-width: 600px) {
@@ -126,6 +164,13 @@
         width: 22px;
         height: 22px;
     }
+    .footer-svg-icon {
+        width: 20px;
+        height: 20px;
+    }
+    .footer-social-icons {
+        gap: 10px;
+    }
     .buider-Credit h3, .buider-Credit h2 {
         font-size: 13px;
     }
@@ -148,6 +193,13 @@
     .footer-social-icon {
         width: 16px;
         height: 16px;
+    }
+    .footer-svg-icon {
+        width: 16px;
+        height: 16px;
+    }
+    .footer-social-icons {
+        gap: 8px;
     }
     .buider-Credit h3, .buider-Credit h2 {
         font-size: 10px;
