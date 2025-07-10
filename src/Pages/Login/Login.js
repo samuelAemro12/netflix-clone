@@ -27,7 +27,7 @@ const Login = () => {
 
   return (
     // load spinner via conditional rendering it is rendered until the home 
-    load?<div className="login-sppinner"> <img src={loading} alt=''/>
+    load?<div className="login-spinner"> <img src={loading} alt=''/>
     </div>:
     <div className='login'>
       <img src={netflixLogo} alt='netflix logo' className='netflixLogoImage'/>
