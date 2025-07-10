@@ -42,8 +42,8 @@ const TitleCards = ({title, category }) =>{
                 {movieApiData.map((movie, index)=>{
                     return(
                     <Link  to={`/player/${movie.id}`} className="Movie" key={index}>
-                        <img src={`https://image.tmdb.org/t/p/w500`+movie.backdrop_path} alt=""/>
-                        <p src={movie.original_title} alt=""/>
+                        <img src={`https://image.tmdb.org/t/p/w500`+movie.backdrop_path} alt={movie.original_title}/>
+                        <p>{movie.original_title}</p>
                     </Link>
                     );
                 })}
