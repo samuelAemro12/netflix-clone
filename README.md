@@ -1,9 +1,8 @@
 # Netflix Clone - A React.js Project
 
-A faithful recreation of Netflix, built using React and Firebase. It is a mobile first, frontend app
+A faithful recreation of Netflix, built using React and Firebase. It is a mobile first, frontend app with responsiveness and it is deployed on the web using github pages.
 
 # Features:
-
 - **User Authentication**: Sign up and log in with Firebase.
 -**Home Page**: Explore a curated selection of movies and TV shows.
 -**Movie/TV Show Details**: Watch trailers and discover more information.
