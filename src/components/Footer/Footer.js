@@ -8,10 +8,10 @@ const Footer = () => {
   return (
     <div className="outer-container">
     <div className="inner-container">
-        <div>
-            <img src={facebookLogo} alt="facebook logo"/>
-            <img src={instagramLogo} alt="instagram logo"/>
-            <img src={youtubeLogo} alt="youTube logo"/>
+        <div className='image-social-media'>
+            <img src={facebookLogo} alt="facebook logo" className="footer-social-icon"/>
+            <img src={instagramLogo} alt="instagram logo" className="footer-social-icon"/>
+            <img src={youtubeLogo} alt="youTube logo" className="footer-social-icon"/>
             {/* imported pictures from local directory*/}
          </div>
         < div className="footer-data">
@@ -47,9 +47,7 @@ const Footer = () => {
         <h3>Built By Samuel Aemro Melese</h3>
         <h2>2024</h2>
     </div>
-</div>
-// rendering the footer jsx
-
-  );
+</div>  
+    );
 }
 export default Footer;
