@@ -1,37 +1,42 @@
 # Netflix Clone - A React.js Project
 
-A faithful recreation of Netflix, built using React and Firebase.
+A faithful recreation of Netflix, built using React and Firebase. It is a mobile first, frontend app
 
 # Features:
 
-User Authentication: Sign up and log in with Firebase.
-Home Page: Explore a curated selection of movies and TV shows.
-Movie/TV Show Details: Watch trailers and discover more information.
-Basic Video Player: Enjoy the movie trailers. 
+- **User Authentication**: Sign up and log in with Firebase.
+-**Home Page**: Explore a curated selection of movies and TV shows.
+-**Movie/TV Show Details**: Watch trailers and discover more information.
+-**Basic Video Player**: Enjoy the movie trailers. 
 
 # Technology Stack:
 
-Frontend: React, JavaScript, CSS
-Backend: Firebase (Authentication)
-API: The Movie Database (TMDb)
+-**Frontend**: React, JavaScript, CSS
+-**Backend**: Firebase (Authentication)
+-**API**: The Movie Database (TMDb)
 
 # Getting Started:
 
 1. Clone the repository:
    
+   ```
    git clone https://github.com/samuelAemro12/netflix-clone
+   ```
    
 2. Install dependencies:
    
-   cd netflix-clone
-   npm install
-   
+  ```
+cd netflix-clone
+npm install
+   ```
 3. Set up Firebase:
-   - Create a Firebase project and enable Authentication.
+   -Create a Firebase project and enable Authentication.
    - Configure Firebase within the project (follow Firebase documentation).
 4. Start the development server:
    
+   ```
    npm start
+   ```
    
 # Contribute:
 
@@ -43,12 +48,12 @@ firebase, the site contains home page, player and login page, where users can si
 and have their way with the showcasing some movies trailers
 
 # used Dependencies
-react-router-dom - Routing
-react - General Library
-react-dom
-firebase - User Authentication
-react-firebase-hooks
-The Movie Database - API to fetch data from
+-**react-router-dom** - Routing
+-**react** - General Library
+-**react-dom**
+-**firebase** - User Authentication
+-**react-firebase-hooks**
+-**The Movie Database** - API to fetch data from
 
 # Status
 Public
