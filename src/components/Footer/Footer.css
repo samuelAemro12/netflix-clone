@@ -93,6 +93,17 @@
     align-items: center;
     justify-content: center;
     border: #fff 1px solid;
+}
+
+.footer-social-icon {
+    width: 32px;
+    height: 32px;
+    display: inline;
+    margin-left: 10px;
+    color: #fff;
+}
+
+.footer {
     width: 120px;
     margin: 10px auto;
     cursor: pointer;
@@ -101,6 +112,7 @@
 .copy-write {
     font-size: 12px;
     text-align: center;
+        overflow-x: hidden;
     margin-bottom: 10px;
 }
 

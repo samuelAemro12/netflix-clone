@@ -8,7 +8,9 @@
 .movie-list{
     display: flex;
     gap: 10px;
-    overflow-x: scroll;
+    overflow-x: auto;
+    max-width: 100vw;
+    box-sizing: border-box;
 }
 .movie-list::-webkit-scrollbar{
     display: none;
